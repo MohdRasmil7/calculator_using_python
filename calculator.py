@@ -1,6 +1,8 @@
 #simple calculator using python 
 #gui used here is tkinter
 
+
+
 from tkinter import *
 
 window=Tk()
@@ -26,7 +28,7 @@ def equalPress():
         total=str(eval(display.get()))
         display.set(total)
     except:
-        display.set("error")
+        display.set("syntax error")
 
 
 
