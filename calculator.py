@@ -1,6 +1,6 @@
 #simple calculator using python 
 #gui used here is tkinter
-#git
+
 from tkinter import *
 
 window=Tk()
